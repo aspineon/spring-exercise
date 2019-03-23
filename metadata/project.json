@@ -1,0 +1,57 @@
+{
+  "name": "Zadanie 1 - Java + Spring framework",
+  "description": "<p>Przeanalizuj kod aplikacji napisanej z użyciem <em>Spring framework</em> a następnie uzupełnij implementację klasy<code>IncrementalAccountNumberGenerator</code> tak aby poprawnie generowała numery nowo tworzonych kont.Zaproponowane rozwiązanie musi spełniać wymagania określone testami jednostkowymi.Zweryfikuj konfigurację frameworku <em>Spring</em> oraz popraw błędy uniemożliwiające poprawne działanie aplikacji. Uwaga! możesz edytować tylko wybrane pliki.</p>",
+  "files": [
+    {
+      "name": "IncrementalAccountNumberGenerator.java",
+      "path": "src/main/java/pl/training/bank/account",
+      "editable": true
+    },
+    {
+      "name": "IncrementalAccountNumberGeneratorTest.java",
+      "path": "src/test/java/pl/training/bank/account"
+    },
+    {
+      "name": "HashMapAccountRepository.java",
+      "path": "src/main/java/pl/training/bank/account"
+    },
+    {
+      "name": "AccountService.java",
+      "path": "src/main/java/pl/training/bank/account"
+    },
+    {
+      "name": "AccountNumberGenerator.java",
+      "path": "src/main/java/pl/training/bank/account"
+    },
+    {
+      "name": "Account.java",
+      "path": "src/main/java/pl/training/bank/account"
+    },
+    {
+      "name": "AccountRepository.java",
+      "path": "src/main/java/pl/training/bank/account"
+    },
+    {
+      "name": "Application.java",
+      "path": "src/main/java/pl/training/bank",
+      "editable": true
+    }
+  ],
+  "runtimeEnvironment": "runtime/java-8",
+  "language": "java",
+  "availableCommands": [
+    {
+      "name": "test",
+      "value": "mvn clean test"
+    },
+    {
+      "name": "build",
+      "value": "mvn clean compile"
+    },
+    {
+      "name": "run",
+      "value": "mvn clean package && java -jar target/bank-spring-boot.jar",
+      "expectedResult": "Account(id=1, number=00000000000000000000000001, balance=0)"
+    }
+  ]
+}
