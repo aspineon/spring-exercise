@@ -3,7 +3,7 @@ package pl.training.bank.account;
 import org.springframework.stereotype.Service;
 
 @Service
-public class FakelAccountNumberGenerator implements AccountNumberGenerator {
+public class FakeAccountNumberGenerator implements AccountNumberGenerator {
 
     private static final String ACCOUNT_NUMBER = "00000000000000000000000000";
 
