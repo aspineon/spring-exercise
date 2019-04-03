@@ -8,6 +8,11 @@
       "editable": true
     },
     {
+      "name": "FakeAccountNumberGenerator.java",
+      "path": "src/main/java/pl/training/bank/account",
+      "editable": true
+    },
+    {
       "name": "IncrementalAccountNumberGeneratorTest.java",
       "path": "src/test/java/pl/training/bank/account"
     },
