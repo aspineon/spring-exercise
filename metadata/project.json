@@ -22,7 +22,8 @@
     },
     {
       "name": "AccountService.java",
-      "path": "src/main/java/pl/training/bank/account"
+      "path": "src/main/java/pl/training/bank/account",
+      "editable": true
     },
     {
       "name": "AccountNumberGenerator.java",
