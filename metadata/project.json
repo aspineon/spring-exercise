@@ -1,6 +1,6 @@
 {
   "name": "Spring framework",
-  "description": "<p>\n    Przeanalizuj kod aplikacji napisanej z użyciem <em>Spring framework</em> a następnie rozwiąż następujące zadania:\n    <ul>\n        <li>Zweryfikuj konfigurację oraz popraw błędy uniemożliwiające poprawne działanie aplikacji</li>\n        <li>Skonfiguruj aplikację tak aby wyświetlała czas wykonania metody <code>public Account create()</code>. Wykorzystaj do tego aspekt <code>Profiler</code></li>\n    </ul>\n    Uwaga! możesz edytować tylko wybrane pliki.\n</p>",
+  "description": "<p>\n    Przeanalizuj kod aplikacji napisanej z użyciem <em>Spring framework</em> a następnie:\n    <ul>\n        <li>- zweryfikuj konfigurację oraz popraw błędy uniemożliwiające działanie aplikacji</li>\n        <li>- skonfiguruj aplikację tak aby wyświetlała czas wykonania metody <code>public Account create()</code>. W tym celu wykorzystaj przygotowany aspekt</li>\n    </ul>\n</p>\n",
   "files": [
     {
       "name": "IncrementalAccountNumberGenerator.java",
