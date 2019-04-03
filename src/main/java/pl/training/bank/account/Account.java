@@ -1,19 +1,14 @@
 package pl.training.bank.account;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
-
-@RequiredArgsConstructor
-@NoArgsConstructor
-@Data
 public class Account {
 
     private Long id;
-    @NonNull
     private String number;
     private long balance;
+
+    public Account(String number) {
+        this.number = number;
+    }
 
     public void deposit(long funds) {
         balance += funds;
@@ -23,4 +18,16 @@ public class Account {
         balance -= funds;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    @Override
+    public String toString() {
+        return "Account(id=" + id + ", number='" + number + ", balance=" + balance + ")";
+    }
 }

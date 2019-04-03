@@ -1,6 +1,5 @@
 package pl.training.bank.account;
 
-import lombok.Setter;
 import org.springframework.stereotype.Repository;
 
 import java.util.LinkedHashMap;
@@ -10,7 +9,6 @@ import java.util.Optional;
 @Repository("accountRepository")
 public class HashMapAccountRepository implements AccountRepository {
 
-    @Setter
     private Map<String, Account> accounts = new LinkedHashMap<>();
     private long counter;
 

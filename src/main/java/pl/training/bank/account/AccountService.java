@@ -1,17 +1,19 @@
 package pl.training.bank.account;
 
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor
 public class AccountService {
 
-    @NonNull
     private AccountNumberGenerator accountNumberGenerator;
-    @NonNull
     private AccountRepository accountRepository;
+
+    @Autowired
+    public AccountService(AccountNumberGenerator accountNumberGenerator, AccountRepository accountRepository) {
+        this.accountNumberGenerator = accountNumberGenerator;
+        this.accountRepository = accountRepository;
+    }
 
     public Account create() {
         String accountNumber = accountNumberGenerator.next();
