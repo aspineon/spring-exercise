@@ -1,6 +1,6 @@
 {
   "name": "Spring framework",
-  "description": "<p>Przeanalizuj kod aplikacji napisanej z użyciem <em>Spring framework</em> a następnie uzupełnij implementację klasy <code>IncrementalAccountNumberGenerator</code> tak aby poprawnie generowała numery nowo tworzonych kont.Zaproponowane rozwiązanie musi spełniać wymagania określone testami jednostkowymi.Zweryfikuj konfigurację frameworku <em>Spring</em> oraz popraw błędy uniemożliwiające poprawne działanie aplikacji. Uwaga! możesz edytować tylko wybrane pliki.</p>",
+  "description": "<p>\n    Przeanalizuj kod aplikacji napisanej z użyciem <em>Spring framework</em> a następnie rozwiąż następujące zadania:\n    <ul>\n        <li>Zweryfikuj konfigurację oraz popraw błędy uniemożliwiające poprawne działanie aplikacji</li>\n        <li>Skonfiguruj aplikację tak aby wyświetlała czas wykonania metody <code>public Account create()</code>. Wykorzystaj do tego aspekt <code>Profiler</code></li>\n    </ul>\n    Uwaga! możesz edytować tylko wybrane pliki.\n</p>",
   "files": [
     {
       "name": "IncrementalAccountNumberGenerator.java",
@@ -38,7 +38,7 @@
     },
     {
       "name": "ExecutionTime.java",
-      "path": "src/main/java/pl/training/bank/profiler",
+      "path": "src/main/java/pl/training/bank/profiler"
     },
     {
       "name": "Profiler.java",
